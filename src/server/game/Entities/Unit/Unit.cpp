@@ -20092,7 +20092,7 @@ uint32 Unit::RecaculateDamage(uint32 damage) // Here we calculate the damage don
 
 uint32 Unit::RecaculateHealing(uint32 healamount) // calculate healing here
 {
-	// Custom Balance System For AthenasWOW 
+	// Custom Balance System For TorghastWOW 
 	if (GetTypeId() == TYPEID_PLAYER)
 	{
 		switch (ToPlayer()->GetSpecialization())
