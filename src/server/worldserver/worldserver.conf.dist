@@ -1,5 +1,5 @@
 ################################################
-#   SkyFire World Server configuration file    #
+#   Torghast World Server configuration file    #
 ################################################
 [worldserver]
 
@@ -64,7 +64,7 @@ RealmID = 1
 #    DataDir
 #        Description: Data directory setting.
 #        Important:   DataDir needs to be quoted, as the string might contain space characters.
-#        Example:     "@prefix@/share/skyfire"
+#        Example:     "@prefix@/share/Torghast"
 #        Default:     "."
 
 DataDir = "."
@@ -89,16 +89,16 @@ LogsDir = ""
 #                                                                 section my.ini)
 #                     ".;/path/to/unix_socket;username;password;database" - (use Unix sockets on
 #                                                                           Unix/Linux)
-#        Default:     "127.0.0.1;3306;skyfire;skyfire;auth"       - (LoginDatabaseInfo)
-#                     "127.0.0.1;3306;skyfire;skyfire;world"      - (WorldDatabaseInfo)
-#                     "127.0.0.1;3306;skyfire;skyfire;characters" - (CharacterDatabaseInfo)
-#                     "127.0.0.1;3306;skyfire;skyfire;FusionCMS"  - (FusionCMSDatabaseInfo)
+#        Default:     "127.0.0.1;3306;Torghast;Torghast;auth"       - (LoginDatabaseInfo)
+#                     "127.0.0.1;3306;Torghast;Torghast;world"      - (WorldDatabaseInfo)
+#                     "127.0.0.1;3306;Torghast;Torghast;characters" - (CharacterDatabaseInfo)
+#                     "127.0.0.1;3306;Torghast;Torghast;FusionCMS"  - (FusionCMSDatabaseInfo)
 
-LoginDatabaseInfo     = "127.0.0.1;3306;skyfire;skyfire;auth"
-WorldDatabaseInfo     = "127.0.0.1;3306;skyfire;skyfire;world"
-CharacterDatabaseInfo = "127.0.0.1;3306;skyfire;skyfire;characters"
-ArchiveDatabaseInfo   = "127.0.0.1;3306;skyfire;skyfire;archive"
-FusionCMSDatabaseInfo = "127.0.0.1;3306;skyfire;skyfire;FusionCMS"
+LoginDatabaseInfo     = "127.0.0.1;3306;Torghast;Torghast;auth"
+WorldDatabaseInfo     = "127.0.0.1;3306;Torghast;Torghast;world"
+CharacterDatabaseInfo = "127.0.0.1;3306;Torghast;Torghast;characters"
+ArchiveDatabaseInfo   = "127.0.0.1;3306;Torghast;Torghast;archive"
+FusionCMSDatabaseInfo = "127.0.0.1;3306;Torghast;Torghast;FusionCMS"
 
 #
 #    LoginDatabase.WorkerThreads
@@ -1071,10 +1071,10 @@ BeepAtStart = 1
 #    Motd
 #        Description: Message of the Day, displayed at login.
 #                     Use '@' for a newline and be sure to escape special characters.
-#        Example:     "Welcome to John\'s Server@This server runs on SkyFire Core."
-#        Default:     "Welcome to a SkyFire server."
+#        Example:     "Welcome to John\'s Server@This server runs on Torghast Core."
+#        Default:     "Welcome to a Torghast server."
 
-Motd = "Welcome to a SkyFire server."
+Motd = "Welcome to a Torghast server."
 
 #
 #    Server.LoginInfo
