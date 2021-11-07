@@ -170,13 +170,13 @@ int Master::Run()
     TC_LOG_INFO("server.worldserver", "%s (worldserver-daemon)", _FULLVERSION);
     TC_LOG_INFO("server.worldserver", "<Ctrl-C> to stop.\n");
 
-    TC_LOG_INFO("server.worldserver", "   ______  __  __  __  __  ______ __  ______  ______ ");
-    TC_LOG_INFO("server.worldserver", "  /\\  ___\\/\\ \\/ / /\\ \\_\\ \\/\\  ___/\\ \\/\\  == \\/\\  ___\\ ");
-    TC_LOG_INFO("server.worldserver", "  \\ \\___  \\ \\  _'-\\ \\____ \\ \\  __\\ \\ \\ \\  __<\\ \\  __\\ ");
-    TC_LOG_INFO("server.worldserver", "   \\/\\_____\\ \\_\\ \\_\\/\\_____\\ \\_\\  \\ \\_\\ \\_\\ \\_\\ \\_____\\ ");
-    TC_LOG_INFO("server.worldserver", "    \\/_____/\\/_/\\/_/\\/_____/\\/_/   \\/_/\\/_/ /_/\\/_____/ ");
-    TC_LOG_INFO("server.worldserver", "  Project SkyFireEmu 2014(c) Open-sourced Game Emulation ");
-    TC_LOG_INFO("server.worldserver", "           <http://www.projectskyfire.org/> \n");
+    TC_LOG_INFO("server.worldserver", " ████████╗██╗░░██╗░█████╗░██████╗░░██████╗░░█████╗░░██████╗████████╗");
+    TC_LOG_INFO("server.worldserver", " ╚══██╔══╝██║░░██║██╔══██╗██╔══██╗██╔════╝░██╔══██╗██╔════╝╚══██╔══╝ ");
+    TC_LOG_INFO("server.worldserver", " ░░░██║░░░███████║██║░░██║██████╔╝██║░░██╗░███████║╚█████╗░░░░██║░░░ ");
+    TC_LOG_INFO("server.worldserver", " ░░░██║░░░██║░░██║╚█████╔╝██║░░██║╚██████╔╝██║░░██║██████╔╝░░░██║░░░");
+    TC_LOG_INFO("server.worldserver", " ░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░");
+    TC_LOG_INFO("server.worldserver", "  torghast project 2021(c) Private-sourced Game Emulation ");
+    TC_LOG_INFO("server.worldserver", "           <https://torghast-project.com> \n");
 
 
     /// worldserver PID file creation
