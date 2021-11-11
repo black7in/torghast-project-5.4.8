@@ -28,7 +28,7 @@ public:
     bool OnGossipHello(Player* player, Creature* creature)
     {
         WorldSession* session = player->GetSession();
-        if (player->GetQuestStatus(40328) == QUEST_STATUS_REWARDED || player->GetQuestStatus(40329) == QUEST_STATUS_REWARDED)
+        //if (player->GetQuestStatus(40328) == QUEST_STATUS_REWARDED || player->GetQuestStatus(40329) == QUEST_STATUS_REWARDED)
         {
             if (sT->GetEnableTransmogInfo())
                 player->ADD_GOSSIP_ITEM(GOSSIP_ICON_MONEY_BAG, "|TInterface/ICONS/INV_Misc_Book_11:30:30:-18:0|tHow does transmogrification work?", EQUIPMENT_SLOT_END + 9, 0);

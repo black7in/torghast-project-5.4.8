@@ -289,7 +289,8 @@ void Transmogrification::SetFakeEntry(Player* player, uint32 newEntry, uint8 /*s
     entryMap[player->GetGUID()][itemGUID] = newEntry;
     dataMap[itemGUID] = player->GetGUID();
     CharacterDatabase.PExecute("REPLACE INTO custom_transmogrification (GUID, FakeEntry, Owner) VALUES (%u, %u, %u)", GUID_LOPART(itemGUID), newEntry, player->GetGUIDLow());
-    UpdateItem(player, itemTransmogrified, newEntry);
+    CharacterDatabase.PExecute("UPDATE item_instance SET transmogrifyId = %u WHERE guid = %u", newEntry, GUID_LOPART(itemGUID));
+	UpdateItem(player, itemTransmogrified, newEntry);
 }
 
 TransmogTrinityStrings Transmogrification::Transmogrify(Player* player, uint64 itemGUID, uint8 slot, /*uint32 newEntry, */bool no_cost)
