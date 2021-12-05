@@ -10,12 +10,11 @@
 ## Requirements
 + Platform: Linux, Windows or Mac
 + Processor with SSE2 support
-+ ACE = 5.8.3 (included for Windows)
-+ MySQL = 5.1.0 (included for Windows)
-+ CMake = 2.8.11.2 / 2.8.9 (Windows / Linux)
-+ OpenSSL = 0.9.8o
-+ GCC = 4.7.2 (Linux only)
-+ MS Visual Studio = 12 (2013) (Windows only)
++ boost_1_63_0-msvc-14.0-64
++ MySQL = 5.7.0 (included for Windows)
++ cmake-3.19.4-win64-x64 (Windows / Linux)
++ OpenSS L= Win64OpenSSL-1_0_2d
++ MS Visual Studio = 15 (2017) (Windows only)
 
 ## Install
 Detailed installation guides are available in the wiki for
